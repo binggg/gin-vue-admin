@@ -1,0 +1,15 @@
+{
+  "envId": "{{envId}}",
+  "framework": {
+    "plugins": {
+      "client": {
+        "use": "@cloudbase/framework-plugin-container",
+        "inputs": {
+          "serviceName": "gin-vue-admin",
+          "servicePath": "/gin-vue-admin",
+          "localPath": "./"
+        }
+      }
+    }
+  }
+}
